@@ -1,0 +1,51 @@
+/* @media only screen and (max-width:700px) {
+    .team {
+        grid-template-columns: auto auto;
+    }
+} */
+@media only screen and (max-width:800px) {
+    .band-d {
+        display: block;
+    }
+
+    .band-d EBinfo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .band-d p {
+        float: inherit;
+    }
+
+    .int-collab h3 {
+        font-size: 30px;
+    }
+    .int-collab .ytvd iframe {
+        height: 100px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .band-d img {
+        height: 300px;
+    }
+
+    .band-d h2 {
+        font-size: 25px;
+    }
+
+    .band-d p {
+        font-size: 12px;
+    }
+
+  
+    .int-collab h3{
+        font-size: 20px;
+    }
+    .animate-charcter{
+        font-size: 15px;
+    }
+}

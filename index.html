@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiway Bantai</title>
+    <script src="https://kit.fontawesome.com/d7431438a4.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="Responsive.css">
+</head>
+
+<body>
+    <embed src="img/MHN01.mp3" loop="true" autostart="true" width="" height="0">
+
+    <header>
+        <div class="h-content">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="">Merchandise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <img class="mySlides" src="img/EBconcert.jpeg" style="width:100%">
+            <img class="mySlides" src="img/EBstanding.jpeg" style="width:100%">
+            <img class="mySlides" src="img/EBstudio.jpeg" style="width: 100%;">
+          </section>
+          <script>
+            var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+          </script>
+    <div class="mhncontainer">
+        <div class="row">
+          <div class="text-center">
+            <h3 class="animate-charcter">EMIWAY BANTAI MALUM HAI NA</h3>
+          </div>
+        </div>
+    </div>
+          <section class="band-d">
+            <img src="img/Emiwaybantai2.jpg" alt="">
+            <div class="EBinfo">
+            <h2>EMIWAY BANTAI</h2>
+            <h3>We just startd</h3>
+            <p>We have created a fictional band website. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque distinctio inventore dolorem laboriosam similique dignissimos reiciendis nobis fuga sint aliquid nemo id culpa cum eius illo aut suscipit odit voluptates ea repellendus dicta, veritatis voluptatibus. Molestiae optio ipsum, ipsam alias praesentium voluptatem. Animi quos eius tempora voluptatum aspernatur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam et nesciunt ratione sunt nulla suscipit modi pariatur porro? Iusto, inventore. similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, delectus..</p>
+            <button>Subscribe</button>
+        </div>
+    </section>
+    <div class="int-collab">
+        <h3>International collaboration</h3>
+        <div class="ytvd">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hbyywJxm20w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tr2VsMMnSxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DH8PURFVW3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RWGUyN50t4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KWy_kHQEQp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1ADnTiQ8Pko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="dbalbum">
+        <h2>Debut album</h2>
+            <img src="img/MHN-album.jpg">
+            <div class="dainfo"></div>
+    </div>
+    </main>
+    <footer>
+        <div class="f-container">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <p>Made with <i class="fa fa-heart"></i> by Abhishek</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
